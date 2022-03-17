@@ -1,0 +1,8 @@
+Container for the words
+
+A set is used to store the words form the text file. Then a check is run to se if the set contain the players input and if so it's valid.
+I chose to use a set because it's a fast look up, since it's a binary search tree and all the elements are unique. 
+I considered a list but then it would potentially need to iterate the whole list, if I didn't use or write an other search function that's not linear.
+A map didn't make sense because the word is both key and value.
+
+For the colored output I used a map for key index and value color, so when it outputs it's used as a look up to determine which background color to output.
